@@ -56,9 +56,6 @@ for f in F:
 for f in F:
     m.addConstr(Z[f] <= Y[f]) # Part B: Can only upgrade if factory is built.
 
-
-
-
 # Optimization
 m.optimize()
 
